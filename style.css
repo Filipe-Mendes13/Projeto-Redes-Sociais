@@ -19,7 +19,7 @@ section.iphone{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: url(img/iphone.png) center center no-repeat fixed;
+    background: url(img/iphone13.png) center center no-repeat fixed;
     background-size: cover;
     z-index: 0;
 }
@@ -27,8 +27,9 @@ section.iphone{
 
 iframe#tela{
     position: relative;
-    top: 80px;
-    left: 22px;
-    height: 472px;
-    width: 267px;
+    top: 19px;
+    left: 18px;
+    height: 588px;
+    width: 272px;
+    overflow-y: hidden;
 }
