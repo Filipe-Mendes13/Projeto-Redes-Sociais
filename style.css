@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: black url(img/fundo-branco-textura-elegante_23-2148428852.avif) top right no-repeat fixed;
+    background-size: cover;
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+section.iphone{
+    position: absolute;
+    height: 450px;
+    width: 313px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:url(img/mockup_apple_iphone_13_pro_max_2021_737a828a3d.png) center center no-repeat fixed;
+    background-size: cover;
+}
