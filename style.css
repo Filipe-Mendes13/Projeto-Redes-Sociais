@@ -7,6 +7,7 @@ body{
     height: 100vh;
     background: black url(img/fundo-branco-textura-elegante_23-2148428852.avif) top right no-repeat fixed;
     background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main{
     position: relative;
@@ -42,7 +43,63 @@ section.buttons img{
     
 }
 section.buttons img:hover{
-    border: 3px solid rgba(255, 255, 255, 0.833);
+    border: 3px solid rgba(195, 16, 219, 0.597);
     transform: translate(-5px, -5px);
     transition: transform .5s, border .5s;
 }
+footer{
+    display: flex;
+    background-color:#120926;
+}
+a{
+    text-decoration: none;
+    color: #59D9D9;
+    
+}
+.containerIMG > img{
+    width: 35%;
+}
+p{
+    padding-top: 5%;
+    color: #59D9D9;
+}
+.containerIMG{
+    display: block;
+    border-right: 2px solid #F21905;
+}
+.contact ul{
+    color: #59D9D9;
+    padding-left: 20px;
+}
+.contact img{
+    width: 10%;
+}
+
+.contact p{
+    padding-top: 0px;
+    padding-bottom: 2px;
+    padding-left: 90px;
+}
+.mapa p{
+    padding-top: 0px;
+    text-align: center;
+}
+
+.mapa iframe{
+    padding-right:10px ;
+    padding-top: 3px;
+}
+.contact img:hover{
+    transform: translate(30px,0px);
+    transition: transform 1s;
+    
+}
+#rodape{
+    text-align: center;
+    background-color: #F21905;
+}
+#rodape a{
+    color: aliceblue;
+}
+
+
